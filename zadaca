@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp18
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> broevi = new List<int> { 9, 4, 2, 6, 1, 8 };
+            
+            broevi.Sort();
+            int num1 = broevi[5];
+            int num2 = broevi[4];
+            int num3 = broevi[3];
+            
+            Console.WriteLine("Prv najgolem: " + num1);
+            Console.WriteLine("Vtor najgolem: " + num2);
+            Console.WriteLine("Tret najgolem: " + num3);
+
+        }
+    }
+}
